@@ -7,7 +7,7 @@ A production-grade, three-tier To-Do web application containerized with Docker a
 ## Project Screenshots
 
 ### CloudFormation Stacks — All CREATE_COMPLETE
-![CloudFormation Stacks Final](cloudformation-stacks-final.png)
+![CloudFormation Stacks Final](<img width="959" height="473" alt="Screenshot 2026-06-26 044310" src="https://github.com/user-attachments/assets/5837312f-cdc0-4597-84be-1a8867e485c2" />)
 > All 3 stacks successfully provisioned: EKS cluster, managed node group, and the IAM service account for the AWS Load Balancer Controller.
 
 ---
