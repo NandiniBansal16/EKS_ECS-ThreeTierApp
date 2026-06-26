@@ -13,13 +13,13 @@ A production-grade, three-tier To-Do web application containerized with Docker a
 ---
 
 ### Live App — Accessible via AWS Load Balancer
-![To-Do App Live](images/97fb4ecb-65a7-4b5e-bd65-22fc475a3a5f.png)
+![To-Do App Live](images/5eba5670-f848-48a3-aef1-1bff1ee8da43.png)
 > The To-Do app running live, served through an AWS Elastic Load Balancer. Tasks can be added, checked off, and deleted in real time.
 
 ---
 
 ### Debugging — Node Group Rollback (Troubleshooting Phase)
-![CloudFormation Rollback](images/5eba5670-f848-48a3-aef1-1bff1ee8da43.png)
+![CloudFormation Rollback](images/97fb4ecb-65a7-4b5e-bd65-22fc475a3a5f.png)
 > During initial deployment, the managed node group hit a `ROLLBACK_COMPLETE` while the cluster itself was `CREATE_COMPLETE`. This was debugged and resolved by re-provisioning the node group with corrected parameters.
 
 ---
