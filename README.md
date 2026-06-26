@@ -7,25 +7,25 @@ A production-grade, three-tier To-Do web application containerized with Docker a
 ## Project Screenshots
 
 ### CloudFormation Stacks — All CREATE_COMPLETE
-![CloudFormation Stacks Final](images/0b8b4ffe-0fad-4e78-9575-34f8ee3bf92c.png)
+![CloudFormation Stacks Final](images/f2c29eef-0857-4c51-b536-12e6d243e06b.png)
 > All 3 stacks successfully provisioned: EKS cluster, managed node group, and the IAM service account for the AWS Load Balancer Controller.
 
 ---
 
 ### Live App — Accessible via AWS Load Balancer
-![To-Do App Live](todo-app-live.png)
+![To-Do App Live](images/97fb4ecb-65a7-4b5e-bd65-22fc475a3a5f.png)
 > The To-Do app running live, served through an AWS Elastic Load Balancer. Tasks can be added, checked off, and deleted in real time.
 
 ---
 
 ### Debugging — Node Group Rollback (Troubleshooting Phase)
-![CloudFormation Rollback](cloudformation-rollback.png)
+![CloudFormation Rollback](images/5eba5670-f848-48a3-aef1-1bff1ee8da43.png)
 > During initial deployment, the managed node group hit a `ROLLBACK_COMPLETE` while the cluster itself was `CREATE_COMPLETE`. This was debugged and resolved by re-provisioning the node group with corrected parameters.
 
 ---
 
 ### EKS Cluster Dashboard
-![EKS Cluster](eks-cluster.png)
+![EKS Cluster](images/0b8b4ffe-0fad-4e78-9575-34f8ee3bf92c.png)
 > The `three-tier-cluster` running Kubernetes v1.34 in `us-east-1` (N. Virginia) — Active status, 0 node health issues, 0 cluster health issues.
 
 ---
